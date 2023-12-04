@@ -59,7 +59,7 @@ def scrape_jobs(template, position, location, miles, num_pages):
 def main():
     st.title("NHS Jobs Scraper App")
 
-    position = st.sidebar.text_input("Enter Job Title")
+    position = st.sidebar.text_input("Enter Position")
     location = st.sidebar.text_input("Enter Location")
     miles = st.sidebar.text_input("Enter Miles")
     num_pages = st.sidebar.number_input("Enter Number of Pages", min_value=1, max_value=10, value=1)
